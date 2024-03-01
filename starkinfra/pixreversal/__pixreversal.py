@@ -165,7 +165,7 @@ def parse(content, signature, user=None):
     request.fee = request.fee or 0
     request.tags = request.tags or []
     request.external_id = request.external_id or ""
-    request.description = request.description or ""
+    # request.description = request.description or ""
     
     return request
 
